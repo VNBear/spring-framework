@@ -12,6 +12,7 @@ public class Main {
 
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
 		context.register(Bean.class);
+		context.register(ModeBeanFactory.class);
 		context.refresh();
 		System.out.println(context.getBean(Bean.class));
 	}

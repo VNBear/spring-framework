@@ -588,7 +588,7 @@ public abstract class AbstractBeanDefinition extends BeanMetadataAttributeAccess
 	 * @see #AUTOWIRE_CONSTRUCTOR
 	 * @see #AUTOWIRE_AUTODETECT
 	 */
-	public void setAutowireMode(int autowireMode) {
+	public void  setAutowireMode(int autowireMode) {
 		this.autowireMode = autowireMode;
 	}
 
